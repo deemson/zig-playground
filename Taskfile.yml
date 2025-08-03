@@ -1,0 +1,6 @@
+version: 3
+tasks:
+  install-sokol:
+    dir: '{{.USER_WORKING_DIR}}'
+    cmds:
+      - zig fetch --save=sokol git+https://github.com/floooh/sokol-zig.git
